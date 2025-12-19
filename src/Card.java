@@ -16,7 +16,7 @@ this.rank = rank;
 this.suit = suit;
 }
 
-// THIS IS THE ONLY METHOD THAT MATTERED
+// Value of Cards stated here
 public int getValue() {
 return switch (rank) {
 case "A" -> 14;
@@ -36,3 +36,4 @@ public String toString() {
 return rank + suit.charAt(0); // e.g. "JH", "8D", "AC"
 }
 }
+
